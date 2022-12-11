@@ -5,8 +5,8 @@
 	"description": "blog",
 	"author": "Benjamin George Hera",
 	"keywords": [
-		"gatsby",
-		"blog"
+		"blog",
+		"gatsby"
 	],
 	"scripts": {
 		"develop": "gatsby develop",
@@ -14,8 +14,8 @@
 		"build": "gatsby build",
 		"serve": "gatsby serve",
 		"clean": "gatsby clean",
-		"typecheck": "tsc --noEmit",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"typecheck": "tsc --noEmit"
 	},
 	"lint-staged": {
 		"**/*": "prettier --write --ignore-unknown"
